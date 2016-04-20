@@ -22,6 +22,11 @@ h4.tagline {
     text-shadow: 0 1px 1px #696969;
     font-family: Montserrat, sans-serif
 }
+h5.tagline {
+    color: #FCFDFF;
+    text-shadow: 0 1px 1px #696969;
+    font-family: Montserrat, sans-serif
+}
 .quote {
     color: #000;
     margin: 50px 0;
