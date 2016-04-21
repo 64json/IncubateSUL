@@ -11,18 +11,16 @@ body {
     min-height: 100vh;
     flex-direction: column
 }
-p {
-    font-family: Neuton, serif
-}
+
 main {
     flex: 1 0 auto
 }
-h4.tagline {
-    color: #FCFDFF;
-    text-shadow: 0 1px 1px #696969;
-    font-family: Montserrat, sans-serif
+
+a {
+	color: white;
+	text-shadow: 0 2px 2px #000000;
 }
-h5.tagline {
+.tagline {
     color: #FCFDFF;
     text-shadow: 0 1px 1px #696969;
     font-family: Montserrat, sans-serif
