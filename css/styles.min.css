@@ -16,6 +16,11 @@ main {
     flex: 1 0 auto
 }
 
+p {
+	font-weight: 100;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 a {
 	color: white;
 }
@@ -98,7 +103,7 @@ img.logo {
     padding: 20px
 }
 nav {
-    background: #000
+    background: #212121
 }
 h4.heading,
 h5.game {
@@ -107,6 +112,10 @@ h5.game {
 h5.game {
     color: #FCFDFF;
     margin-top: -10px
+}
+button.header-button{
+	background-color: transparent; 
+	border: solid white 1px;
 }
 .lnr {
     display: inline-block;
