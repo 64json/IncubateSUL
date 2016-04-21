@@ -18,6 +18,8 @@ main {
 
 a {
 	color: white;
+}
+.sponsor-link {
 	text-shadow: 0 2px 2px #000000;
 }
 .tagline {
