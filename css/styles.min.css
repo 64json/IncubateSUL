@@ -22,10 +22,11 @@ p {
 }
 
 a {
-	color: white;
+	color: #2962ff;
 }
 .sponsor-link {
-	text-shadow: 0 2px 2px #000000;
+	color: #ddd;
+	/*text-shadow: 0 2px 2px #000000;*/
 }
 .tagline {
     color: #FCFDFF;
