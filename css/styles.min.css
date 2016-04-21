@@ -110,7 +110,7 @@ h5.game {
     color: #FCFDFF;
     margin-top: -10px
 }
-button.header-button{
+.header-button{
 	background-color: transparent; 
 	border: solid white 1px;
 	margin: 2px;
