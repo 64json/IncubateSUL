@@ -113,6 +113,7 @@ h5.game {
 button.header-button{
 	background-color: transparent; 
 	border: solid white 1px;
+	margin: 2px;
 }
 .lnr {
     display: inline-block;
