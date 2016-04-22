@@ -104,7 +104,8 @@ nav {
 }
 h4.heading,
 h5.game {
-    font-family: Oswald, sans-serif
+    font-family: roboto, Helvetica, sans-serif;
+    font-weight: 300;
 }
 h5.game {
     color: #FCFDFF;
@@ -158,4 +159,9 @@ h5.game {
 }
 .fa {
     padding: 10px
+}
+
+.about-body {
+	font-family: roboto, Helvetica, sans-serif;
+	font-weight: 300;
 }
