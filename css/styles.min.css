@@ -2,7 +2,12 @@
 .numbers,
 .quote,
 .section-heading {
-    text-align: center
+    text-align: left;
+    font-family: roboto, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.sponsor-link {
+	color: white;
 }
 body {
     background: #000;
@@ -17,8 +22,8 @@ main {
 }
 
 p {
-	font-weight: 100;
-	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+	font-family: 'roboto', Helvetica, sans-serif;
 }
 
 a {
@@ -85,7 +90,7 @@ a {
 @media screen and (min-width: 992px) {
     .masthead {
         width: 100%;
-        height: 90vh
+        height: 100vh
     }
     .second-parallax {
         height: 500px
@@ -95,12 +100,11 @@ img.logo {
     height: 30px;
     padding-top: 5px
 }
-.lnr,
-.section-heading {
+.lnr{
     padding: 20px
 }
 nav {
-    background: #212121
+    background: transparent;
 }
 h4.heading,
 h5.game {
