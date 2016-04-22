@@ -1,0 +1,231 @@
+.card-content,
+.numbers,
+.quote,
+.section-heading {
+    text-align: center
+}
+body {
+    background: #000;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column
+}
+
+main {
+    flex: 1 0 auto
+}
+
+p {
+	font-weight: 100;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a {
+	color: #2962ff;
+}
+.tagline {
+    color: #FCFDFF;
+    text-shadow: 0 1px 1px #696969;
+    font-family: Montserrat, sans-serif
+}
+.quote {
+    color: #000;
+    margin: 50px 0;
+    padding: 20% 20px
+}
+.diagonal {
+    background: #FCFDFF;
+    position: relative;
+    z-index: 1
+}
+.diagonal:after,
+.diagonal:before {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden
+}
+.lnr-menu,
+.numbers {
+    position: relative
+}
+.diagonal:before {
+    top: 0;
+    transform: skewY(3deg);
+    transform-origin: 100%
+}
+.diagonal:after {
+    bottom: 0;
+    transform: skewY(-3deg);
+    transform-origin: 100%
+}
+
+
+
+
+
+.diagonalB {
+    background: #000;
+    position: relative;
+    z-index: 1
+}
+.diagonalB:after,
+.diagonalB:before {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden
+}
+
+.diagonalB:before {
+    top: 0;
+    transform: skewY(3deg);
+    transform-origin: 100%
+}
+.diagonalB:after {
+    bottom: 0;
+    transform: skewY(-3deg);
+    transform-origin: 100%
+}
+
+.diagonalB h4,p{
+    color: white;
+}
+
+
+@media screen and (min-width: 300px) {
+    .masthead {
+        height: 60vh
+    }
+    .second-parallax {
+        height: 750px
+    }
+}
+@media screen and (min-width: 660px) {
+    .masthead {
+        width: 100%;
+        height: 90vh
+    }
+    .second-parallax {
+        height: 750px
+    }
+}
+@media screen and (min-width: 992px) {
+    .masthead {
+        width: 100%;
+        height: 90vh
+    }
+    .second-parallax {
+        height: 500px
+    }
+}
+img.logo {
+    height: 30px;
+    padding-top: 5px
+}
+.lnr,
+.section-heading {
+    padding: 20px
+}
+nav {
+    background: #212121
+}
+h4.heading,
+h5.game {
+    font-family: Oswald, sans-serif
+}
+h5.game {
+    color: #FCFDFF;
+    margin-top: -10px
+}
+button.header-button{
+	background-color: transparent; 
+	border: solid white 1px;
+}
+.lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 3.25em;
+    height: 3.25em
+}
+.lnr-menu {
+    color: #FCFDFF;
+    font-size: 40px;
+    top: 10px;
+    vertical-align: 5em;
+    width: 1em;
+    height: 1em;
+    background-image: url(../img/lnr-menu.png);
+    background-size: cover
+}
+#counter1,
+#counter2,
+#counter3,
+#counter4 {
+    display: inline-block;
+    color: #FCFDFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 75px
+}
+.cardpage {
+    background-color: #fff;
+    font-weight: 200;
+    padding-left: 20px;
+    padding-right: 20px
+}
+.card-content {
+    color: #3498db
+}
+
+#topPad {
+    background: #000;
+    position: relative;
+    z-index: 1;
+}
+
+#topPad:after,
+#topPad:before {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
+}
+
+#topPad:before {
+    top: 0;
+    transform: skewY(3deg);
+    transform-origin: 100%
+}
+
+
+
+
+.addPad {
+    padding-top: 25px;
+    margin-top: 38px
+}
+.fa {
+    padding: 10px
+}
+
+
+.hoverable:hover {
+  transition: box-shadow .25s;
+  box-shadow: 0 8px 17px 0 rgba(255, 255, 255, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.49) !important;
+}
