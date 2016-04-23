@@ -145,6 +145,9 @@ h5.game {
     font-family: Montserrat, sans-serif;
     font-size: 75px
 }
+.brand-logo{
+	opacity: 0;
+}
 .cardpage {
     background-color: #fff;
     font-weight: 200;
