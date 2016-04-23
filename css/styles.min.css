@@ -169,3 +169,7 @@ h5.game {
 	font-family: roboto, Helvetica, sans-serif;
 	font-weight: 300;
 }
+
+li.tab {
+	font-weight: 400;
+}
