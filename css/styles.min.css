@@ -136,6 +136,11 @@ h5.game {
     background-image: url(../img/lnr-menu.png);
     background-size: cover
 }
+
+* {
+	font-family: 'roboto', Helvetica, sans-serif;
+}
+
 #counter1,
 #counter2,
 #counter3,
