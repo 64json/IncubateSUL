@@ -56,6 +56,13 @@ a {
     z-index: -1;
     -webkit-backface-visibility: hidden
 }
+.counter {
+    display: block;
+    text-align: center;
+    color: #FCFDFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 75px;
+}
 .lnr-menu,
 .numbers {
     position: relative
@@ -135,15 +142,6 @@ h5.game {
     height: 1em;
     background-image: url(../img/lnr-menu.png);
     background-size: cover
-}
-#counter1,
-#counter2,
-#counter3,
-#counter4 {
-    display: inline-block;
-    color: #FCFDFF;
-    font-family: Montserrat, sans-serif;
-    font-size: 75px
 }
 .brand-logo{
 	opacity: 0;
