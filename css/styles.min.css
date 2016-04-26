@@ -6,9 +6,11 @@
     font-family: roboto, Helvetica, sans-serif;
     font-weight: 200;
 }
+
 .sponsor-link {
-	color: white;
+    color: white;
 }
+
 body {
     background: #000;
     font-family: Montserrat, sans-serif;
@@ -22,28 +24,32 @@ main {
 }
 
 p {
-	font-weight: 300;
-	font-family: 'roboto', Helvetica, sans-serif;
+    font-weight: 300;
+    font-family: 'roboto', Helvetica, sans-serif;
 }
 
 a {
-	color: teal;
+    color: teal;
 }
+
 .tagline {
     color: #FCFDFF;
     text-shadow: 0 1px 1px #696969;
     font-family: Montserrat, sans-serif
 }
+
 .quote {
     color: #000;
     margin: 50px 0;
     padding: 20% 20px
 }
+
 .diagonal {
     background: #FCFDFF;
     position: relative;
     z-index: 1
 }
+
 .diagonal:after,
 .diagonal:before {
     background: inherit;
@@ -56,6 +62,7 @@ a {
     z-index: -1;
     -webkit-backface-visibility: hidden
 }
+
 .counter {
     display: block;
     text-align: center;
@@ -63,76 +70,93 @@ a {
     font-family: Montserrat, sans-serif;
     font-size: 75px;
 }
+
 .lnr-menu,
 .numbers {
     position: relative
 }
+
 .diagonal:before {
     top: 0;
     transform: skewY(3deg);
     transform-origin: 100%
 }
+
 .diagonal:after {
     bottom: 0;
     transform: skewY(-3deg);
     transform-origin: 100%
 }
+
 @media screen and (min-width: 300px) {
     .masthead {
         height: 60vh
     }
+
     .second-parallax {
         height: 750px
     }
 }
+
 @media screen and (min-width: 660px) {
     .masthead {
         width: 100%;
         height: 90vh
     }
+
     .second-parallax {
         height: 750px
     }
 }
+
 @media screen and (min-width: 992px) {
     .masthead {
         width: 100%;
         height: 100vh
     }
+
     .second-parallax {
         height: 500px
     }
 }
+
 img.logo {
     height: 30px;
     padding-top: 5px
 }
-.lnr{
+
+.lnr {
     padding: 20px
 }
+
 nav {
     background: transparent;
 }
+
 h4.heading,
 h5.game {
     font-family: roboto, Helvetica, sans-serif;
     font-weight: 300;
 }
+
 h5.game {
     color: #FCFDFF;
     margin-top: -10px
 }
-.header-button{
-	background-color: transparent;
-	border: solid white 2px;
-	margin: 2px;
+
+.header-button {
+    background-color: transparent;
+    border: solid white 2px;
+    margin: 2px;
 }
+
 .lnr {
     display: inline-block;
     fill: currentColor;
     width: 3.25em;
     height: 3.25em
 }
+
 .lnr-menu {
     color: #FCFDFF;
     font-size: 40px;
@@ -143,34 +167,60 @@ h5.game {
     background-image: url(../img/lnr-menu.png);
     background-size: cover
 }
-.brand-logo{
-	opacity: 0;
+
+.brand-logo {
+    opacity: 0;
 }
+
 .cardpage {
     background-color: #fff;
     font-weight: 200;
     padding-left: 20px;
     padding-right: 20px
 }
+
 .card-content {
     color: #3498db
 }
+
 #topPad {
-    padding-top: 100px
+    padding-top: 20px
 }
+
 .addPad {
     padding-top: 25px;
     margin-top: 38px
 }
+
 .fa {
     padding: 10px
 }
 
 .about-body {
-	font-family: roboto, Helvetica, sans-serif;
-	font-weight: 300;
+    font-family: roboto, Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 li.tab {
-	font-weight: 400;
+    font-weight: 400;
+}
+
+.incubatex-logo {
+    padding-top: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.footer-incubatex {
+    text-align: left;
+}
+
+@media screen and (min-width: 992px) {
+    #topPad {
+        padding-top: 100px
+    }
+
+    .footer-incubatex {
+        text-align: right;
+    }
 }
