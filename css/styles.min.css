@@ -133,6 +133,10 @@ nav {
     background: transparent;
 }
 
+.menu-btn .fa-bars {
+    padding: 0;
+}
+
 h4.heading,
 h5.game {
     font-family: roboto, Helvetica, sans-serif;
