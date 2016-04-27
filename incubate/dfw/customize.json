@@ -1,5 +1,16 @@
 {
   "title": "IncubateDFW",
+  "theme": {
+    "$type": "theme",
+    "$value": {
+      "color": "teal",
+      "rgb": [
+        1,
+        138,
+        123
+      ]
+    }
+  },
   "logo": {
     "small": {
       "$type": "image",

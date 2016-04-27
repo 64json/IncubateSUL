@@ -1,5 +1,16 @@
 {
   "title": "IncubateSF",
+  "theme": {
+    "$type": "theme",
+    "$value": {
+      "color": "deep-orange",
+      "rgb": [
+        255,
+        87,
+        34
+      ]
+    }
+  },
   "logo": {
     "small": {
       "$type": "image",
