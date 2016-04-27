@@ -3,3 +3,4 @@
 *.DS_STORE
 *Thumbs.db
 .idea/
+.sass-cache
