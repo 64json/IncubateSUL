@@ -92,36 +92,9 @@ a {
     transform-origin: 100%
 }
 
-@media screen and (min-width: 300px) {
-    .masthead {
-        height: 90vh;
-    }
-
-    .second-parallax {
-        height: 750px
-    }
-}
-
-@media screen and (min-width: 660px) {
-    .masthead {
-        width: 100%;
-        height: 90vh
-    }
-
-    .second-parallax {
-        height: 750px
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .masthead {
-        width: 100%;
-        height: 100vh
-    }
-
-    .second-parallax {
-        height: 500px
-    }
+.masthead {
+    width: 100%;
+    height: 90vh
 }
 
 img.logo {
@@ -189,7 +162,7 @@ li.tab {
 }
 
 section {
-    height: auto;
+    height: auto !important;
     font-weight: 200;
     padding-left: 20px;
     padding-right: 20px
@@ -199,9 +172,14 @@ section {
     background-color: #fff;
 }
 
-section:not(.cardpage){
+section:not(.cardpage) {
     padding-top: 96px;
     padding-bottom: 96px;
+}
+
+#countup {
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
 
 .date {
