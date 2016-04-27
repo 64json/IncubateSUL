@@ -1,5 +1,5 @@
 # IncubateTemplate
-Template for each Incubate websites
+Template for Incubate hackathon websites
 
 Prerequisite
 ------------
