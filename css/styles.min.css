@@ -154,33 +154,8 @@ h5.game {
     margin: 2px;
 }
 
-.lnr {
-    display: inline-block;
-    fill: currentColor;
-    width: 3.25em;
-    height: 3.25em
-}
-
-.lnr-menu {
-    color: #FCFDFF;
-    font-size: 40px;
-    top: 10px;
-    vertical-align: 5em;
-    width: 1em;
-    height: 1em;
-    background-image: url(../img/lnr-menu.png);
-    background-size: cover
-}
-
 .brand-logo {
     opacity: 0;
-}
-
-.cardpage {
-    background-color: #fff;
-    font-weight: 200;
-    padding-left: 20px;
-    padding-right: 20px
 }
 
 .card-content {
@@ -207,6 +182,45 @@ h5.game {
 
 li.tab {
     font-weight: 400;
+}
+
+.section {
+    height: auto;
+    font-weight: 200;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.cardpage {
+    background-color: #fff;
+}
+
+.section:not(.cardpage){
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.date {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.timetable .row:not(.date) {
+    border-top: 1px solid white;
+    padding: 8px;
+    margin-bottom: 0;
+}
+
+.timetable .row .col:first-child {
+    text-align: lefts;
+}
+
+#sponsors .col img {
+    width: 100%;
+}
+
+#be_sponsor {
+    padding-bottom: 72px;
 }
 
 .incubatex-logo {
