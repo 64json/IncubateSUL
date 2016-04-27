@@ -32,6 +32,10 @@ a {
     color: teal;
 }
 
+.navbar-fixed {
+    height: 0;
+}
+
 .tagline {
     color: #FCFDFF;
     text-shadow: 0 1px 1px #696969;
@@ -90,7 +94,7 @@ a {
 
 @media screen and (min-width: 300px) {
     .masthead {
-        height: 60vh
+        height: 90vh;
     }
 
     .second-parallax {
@@ -184,7 +188,7 @@ li.tab {
     font-weight: 400;
 }
 
-.section {
+section {
     height: auto;
     font-weight: 200;
     padding-left: 20px;
@@ -195,7 +199,7 @@ li.tab {
     background-color: #fff;
 }
 
-.section:not(.cardpage){
+section:not(.cardpage){
     padding-top: 96px;
     padding-bottom: 96px;
 }
