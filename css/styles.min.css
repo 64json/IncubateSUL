@@ -194,7 +194,7 @@ section:not(.cardpage) {
 }
 
 .timetable .row .col:first-child {
-    text-align: lefts;
+    padding-left: 0;
 }
 
 #sponsors .col img {
@@ -223,4 +223,8 @@ section:not(.cardpage) {
     .footer-incubatex {
         text-align: right;
     }
+}
+
+.template {
+    display: none;
 }

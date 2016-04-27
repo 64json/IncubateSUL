@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>IncubateDFW</title>
 
-
     <meta name="description" content="August 6-7. The largest youth entrepreneurial competition. Join us.">
     <meta name="keywords"
           content="IncubateDFW,IncubateX,Dallas,Fort Worth,DFW,incubate,hackathon,programming,SecondGen,high school,hacks,Make School,entrepreneurship,school">
@@ -17,7 +16,7 @@
 
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/styles.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Neuton|Montserrat|Oswald' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Neuton|Montserrat|Oswald" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
 </head>
@@ -27,31 +26,31 @@
     <nav class="z-depth-0" role="navigation">
         <div class="nav-wrapper container teal-text">
             <div class="">
-                <a href="#page-top" class="brand-logo"><img src="img/IncubateLogoWS.png" alt="" class="logo">
+                <a href="#page-top" class="brand-logo"><img class="logo" data-cs="logo-small">
                 </a>
             </div>
             <ul class="right hide-on-med-and-down menu">
-                <li><a class="nav-text" href="#about">About</a>
+                <li><a class="nav-text" href="#about" data-cs="nav-about"></a>
                 </li>
-                <li><a class="nav-text" href="#faq">FAQ</a>
+                <li><a class="nav-text" href="#faq" data-cs="nav-faq"></a>
                 </li>
-                <li><a class="nav-text" href="#schedule">Schedule</a>
+                <li><a class="nav-text" href="#schedule" data-cs="nav-schedule"></a>
                 </li>
-                <li><a class="nav-text" href="#sponsors">Sponsors</a>
+                <li><a class="nav-text" href="#sponsors" data-cs="nav-sponsors"></a>
                 </li>
-                <li><a class="nav-text" href="#topPad">Contact</a>
+                <li><a class="nav-text" href="#topPad" data-cs="nav-contact"></a>
                 </li>
             </ul>
             <ul id="nav-mobile" class="side-nav">
-                <li><a class="" href="#about">About</a>
+                <li><a class="" href="#about" data-cs="nav-about"></a>
                 </li>
-                <li><a class="" href="#faq">FAQ</a>
+                <li><a class="" href="#faq" data-cs="nav-faq"></a>
                 </li>
-                <li><a class="" href="#schedule">Schedule</a>
+                <li><a class="" href="#schedule" data-cs="nav-schedule"></a>
                 </li>
-                <li><a class="" href="#sponsors">Sponsors</a>
+                <li><a class="" href="#sponsors" data-cs="nav-sponsors"></a>
                 </li>
-                <li><a class="" href="#topPad">Contact</a>
+                <li><a class="" href="#topPad" data-cs="nav-contact"></a>
                 </li>
             </ul>
             <div class="menu-btn">
@@ -68,19 +67,20 @@
     <div class="valign container">
         <div class="row">
             <div class="col s10 push-s1">
-                <img class="responsive-img" src="img/IncubateLogoW.png" alt="IncubateDFW">
-                <h4 class="flow-text center tagline">August 6-7 @ Dallas Fort Work</h4>
+                <img class="responsive-img" alt="IncubateDFW" data-cs="logo-large">
+                <h4 class="flow-text center tagline"><span data-cs="date"></span> @ <span data-cs="venue"></span></h4>
             </div>
         </div>
         <div class="row">
             <a href="#sponsor"
-               class="btn-large waves-effect col m3 offset-m2 s10 offset-s1 header-button animated bounceInLeft">Sponsor
-                Us</a>
+               class="btn-large waves-effect col m3 offset-m2 s10 offset-s1 header-button animated bounceInLeft"
+               data-cs="btn_sponsor"></a>
             <a id="register"
-               class="btn-large waves-effect col m3 offset-m2 s10 offset-s1 header-button animated bounceInRight">Register</a>
+               class="btn-large waves-effect col m3 offset-m2 s10 offset-s1 header-button animated bounceInRight"
+               data-cs="btn_register"></a>
         </div>
     </div>
-    <div class="parallax"><img src="img/5.jpg">
+    <div><img data-cs="bg-top">
     </div>
 </div>
 
@@ -89,35 +89,27 @@
         <div class="row">
             <div class="col s12 m12 l4 addPad">
                 <div class="center">
-                    <i class="blue-grey-text text-lighten-2 fa fa-book fa-5x" aria-hidden="true"></i>
+                    <i class="blue-grey-text text-lighten-2 fa fa-5x" aria-hidden="true" data-cs="about-first-icon"></i>
                 </div>
-                <h4 class="heading center teal-text text-darken-1">Learn</h4>
-                <p class="flow-text center about-body">IncubateDFW will be an educational experience for
-                    participants
-                    of all levels. We will have various workshops from which participants can learn entirely new
-                    skills or platforms, and many mentors who will be able to share their knowledge acquired with
-                    years of experience.</p>
+                <h4 class="heading center teal-text text-darken-1" data-cs="about-first-head"></h4>
+                <p class="flow-text center about-body" data-cs="about-first-body"></p>
             </div>
 
             <div class="col s12 m12 l4 addPad">
                 <div class="center">
-                    <i class="blue-grey-text text-lighten-2 fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+                    <i class="blue-grey-text text-lighten-2 fa fa-5x" aria-hidden="true"
+                       data-cs="about-second-icon"></i>
                 </div>
-                <h4 class="heading center teal-text text-darken-1">Build</h4>
-                <p class="flow-text center about-body">IncubateDFW will foster growth, creating an environment in
-                    which participants can create revolutionary products with technology. With 30 hours to hack,
-                    teams will have the ability to complete polished products with the potential to disrupt
-                    industries.</p>
+                <h4 class="heading center teal-text text-darken-1" data-cs="about-second-head"></h4>
+                <p class="flow-text center about-body" data-cs="about-second-body"></p>
             </div>
 
             <div class="col s12 m12 l4 addPad">
                 <div class="center">
-                    <i class="blue-grey-text text-lighten-2 fa fa-users fa-5x" aria-hidden="true"></i>
+                    <i class="blue-grey-text text-lighten-2 fa fa-5x" aria-hidden="true" data-cs="about-third-icon"></i>
                 </div>
-                <h4 class="heading center teal-text text-darken-1">Connect</h4>
-                <p class="flow-text center about-body">Because IncubateDFW is an entrepreneurship hackathon,
-                    participants will have diverse skillsets. Designers, developers, and budding entrepreneurs will
-                    come together to network and create amazing products.</p>
+                <h4 class="heading center teal-text text-darken-1" data-cs="about-third-head"></h4>
+                <p class="flow-text center about-body" data-cs="about-third-body"></p>
             </div>
         </div>
     </div>
@@ -128,110 +120,68 @@
         <div class="row">
             <div class="col s10 offset-s1 m10 offset-m1 l4 numbers ">
                 <h1 id="counter1" class="counter"></h1>
-                <h5 class="game flow-text center-align">ATTENDEES</h5>
+                <h5 class="game flow-text center-align" data-cs="countup-attendees-unit"></h5>
             </div>
             <div class="col s10 offset-s1 m10 offset-m1 l4 numbers ">
                 <h1 id="counter2" class="counter"></h1>
-                <h5 class="game flow-text center-align">HOURS</h5>
+                <h5 class="game flow-text center-align" data-cs="countup-hours-unit"></h5>
             </div>
             <div class="col s10 offset-s1 m10 offset-m1 l4 numbers ">
                 <h1 id="counter3" class="counter"></h1>
-                <h5 class="game flow-text center-align">LIFETIME OPPORTUNITY</h5>
+                <h5 class="game flow-text center-align" data-cs="countup-opportunity-unit"></h5>
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="img/10.jpg">
+    <div><img data-cs="bg-middle">
     </div>
 </section>
 
 <section id="faq" class="diagonal cardpage scrollspy" style="font-family: roboto">
     <div class="container">
-        <h1 class="teal-text text-accent-4 section-heading">Frequently Asked Questions</h1>
+        <h1 class="teal-text text-accent-4 section-heading" data-cs="section-faq"></h1>
         <div class="row">
             <div class="col s12">
                 <ul class="tabs teal-text">
                     <li class="tab col s3"><a href="#application-tab"><i class="fa fa-user-plus"></i> <span
-                            class="hide-on-small-only">Application</span></a></li>
+                            class="hide-on-small-only" data-cs="faq-application-title"></span></a></li>
                     <li class="tab col s3"><a class="active" href="#logistics-tab"><i class="fa fa-clock-o"></i> <span
-                            class="hide-on-small-only">Logistics</span></a></li>
+                            class="hide-on-small-only" data-cs="faq-logistics-title"></span></a></li>
                     <li class="tab col s3"><a href="#hacking-tab"><i class="fa fa-terminal"></i> <span
-                            class="hide-on-small-only">Hacking</span></a></li>
+                            class="hide-on-small-only" data-cs="faq-hacking-title"></span></a></li>
                     <li class="tab col s3"><a href="#other-tab"><i class="fa fa-asterisk"></i> <span
-                            class="hide-on-small-only">Other</span></a></li>
+                            class="hide-on-small-only" data-cs="faq-other-title"></span></a></li>
                 </ul>
             </div>
 
-            <div id="logistics-tab" class="col s12 animated fadeIn">
-                <div class="row">
-                    <div class="col s12 m4">
-                        <h5>When/Where?</h5>
-                        <p class="flow-text">IncubateDFW will take place on August 6-7 at the Dallas Fort Work.</p>
-                    </div>
-                    <div class="col s12 m4">
-                        <h5>Is there transportation or travel reimbursement?</h5>
-                        <p class="flow-text">TBD.</p>
-                    </div>
-                    <div class="col s12 m4">
-                        <h5>What should I bring?</h5>
-                        <p class="flow-text">Bring your laptop, toiletries, a sleeping bag, and any other technology
-                            that you want to hack with.
-                            <br>You <strong>don't</strong> need a predetermined team or a product idea.</p>.
+            <div id="application-tab" class="col s12 animated fadeIn">
+                <div class="row" data-cs="faq-application-contents">
+                    <div class="template col s12 m4">
+                        <h5 class="question"></h5>
+                        <p class="answer flow-text"></p>
                     </div>
                 </div>
             </div>
-            <div id="application-tab" class="col s12 animated fadeIn">
-                <div class="row">
-                    <div class="col s12 m4">
-                        <h5>Who can apply?</h5>
-                        <p class="flow-text">Any high school or college student can apply to participate in IncubateDFW,
-                            regardless of experience with programming. Because it is an entrepreneurship event, we are
-                            looking for a diverse pool of participants in terms of skillsets.</p>
-                    </div>
-                    <div class="col s12 m4">
-                        <h5>How do I apply?</h5>
-                        <p class="flow-text">Just fill out the registration form! More info will be sent out later.</p>
-                    </div>
-                    <div class="col s12 m4">
-                        <h5>What is the application deadline?</h5>
-                        <p class="flow-text">This will be decided later. The sooner you apply, the better!</p>
+            <div id="logistics-tab" class="col s12 animated fadeIn">
+                <div class="row" data-cs="faq-logistics-contents">
+                    <div class="template col s12 m4">
+                        <h5 class="question"></h5>
+                        <p class="answer flow-text"></p>
                     </div>
                 </div>
             </div>
             <div id="hacking-tab" class="col s12 animated fadeIn">
-                <div class="row">
-                    <div class="col s12 m4">
-                        <h5>How much time will we have to hack?</h5>
-                        <p class="flow-text">Teams will have 30 hours to build their products.</p>
-                    </div>
-                    <div class="col s12 m4">
-                        <h5>Will there be hardware or API keys provided?</h5>
-                        <p class="flow-text">Yes. We will release a list of hardware and API's later.</p>
-                    </div>
-                    <div class="col s12 m4">
-                        <h5>Do I need to be able to code?</h5>
-                        <p class="flow-text">No! Participants will be able to act as product managers or designers for
-                            their teams, or play other roles. If you don't know how to code but want to learn, you can
-                            attend one of our various workshops.</p>
+                <div class="row" data-cs="faq-hacking-contents">
+                    <div class="template col s12 m4">
+                        <h5 class="question"></h5>
+                        <p class="answer flow-text"></p>
                     </div>
                 </div>
             </div>
             <div id="other-tab" class="col s12 animated fadeIn">
-                <div class="row">
-                    <div class="col s12 m4">
-                        <h5>How much does the event cost?</h5>
-                        <p class="flow-text">It's free! We will also provide meals, snacks, and refreshments throughout
-                            the event.</p>
-                    </div>
-                    <div class="col s12 m4">
-                        <h5>Is there a Code of Conduct?</h5>
-                        <p class="flow-text">Yes, <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf"
-                                                     target="_blank">here</a>. <br>tl;dr respect other participants and
-                            don't be a jerk.</p>
-                    </div>
-                    <div class="col s12 m4">
-                        <h5>Will there be prizes?</h5>
-                        <p class="flow-text">Yes. We will have both physical prizes and opportunities with sponsoring
-                            companies. A full list of prizes will be released later.</p>
+                <div class="row" data-cs="faq-other-contents">
+                    <div class="template col s12 m4">
+                        <h5 class="question"></h5>
+                        <p class="answer flow-text"></p>
                     </div>
                 </div>
             </div>
@@ -241,86 +191,26 @@
 
 <section id="schedule" class="scrollspy teal lighten-1">
     <div class="valign container">
-        <h1 class="white-text section-heading">Schedule</h1>
+        <h1 class="white-text section-heading" data-cs="section-schedule"></h1>
         <div class="row white-text">
-            <div class="timetable col s10 offset-s1 m5">
+            <div class="timetable col s10 offset-s1 m5" data-cs="schedule-day1-table">
                 <div class="date row">
-                    <span class="flow-text white-text">August 6th, 2016</span>
+                    <span class="flow-text white-text" data-cs="schedule-day1-date"></span>
                 </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
-                </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
-                </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
-                </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
-                </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
-                </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
-                </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
+                <div class="template row">
+                    <div class="time col s2"></div>
+                    <div class="event col s6"></div>
+                    <div class="place col s4"></div>
                 </div>
             </div>
-            <div class="timetable col s10 offset-s1 m5 offset-m1">
+            <div class="timetable col s10 offset-s1 m5 offset-m1" data-cs="schedule-day2-table">
                 <div class="date row">
-                    <span class="flow-text white-text">August 7th, 2016</span>
+                    <span class="flow-text white-text" data-cs="schedule-day2-date"></span>
                 </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
-                </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
-                </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
-                </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
-                </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
-                </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
-                </div>
-                <div class="row">
-                    <div class="col s2">9AM</div>
-                    <div class="col s6">Check In</div>
-                    <div class="col s4">Lobby</div>
+                <div class="template row">
+                    <div class="time col s2"></div>
+                    <div class="event col s6"></div>
+                    <div class="place col s4"></div>
                 </div>
             </div>
         </div>
@@ -329,10 +219,25 @@
 
 <section id="sponsors" class="diagonal cardpage scrollspy">
     <div class="container">
-        <h1 class="teal-text text-accent-4 section-heading">Our Sponsors</h1>
-        <div class="row">
-            <div class="col s4">
-                <a href="http://www.secondgen.org"><img src="img/sponsors/2ndGen.png"></a>
+        <h1 class="teal-text text-accent-4 section-heading" data-cs="section-our_sponsors"></h1>
+        <div class="row" data-cs="sponsors-name_sponsor">
+            <div class="template col s6">
+                <a class="link"><img class="image"></a>
+            </div>
+        </div>
+        <div class="row" data-cs="sponsors-gold">
+            <div class="template col s4">
+                <a class="link"><img class="image"></a>
+            </div>
+        </div>
+        <div class="row" data-cs="sponsors-silver">
+            <div class="template col s3">
+                <a class="link"><img class="image"></a>
+            </div>
+        </div>
+        <div class="row" data-cs="sponsors-bronze">
+            <div class="template col s2">
+                <a class="link"><img class="image"></a>
             </div>
         </div>
     </div>
@@ -340,19 +245,12 @@
 
 <section id="be_sponsor" class="parallax-container second-parallax scrollspy">
     <div class="container">
-        <h1 class="white-text section-heading">Be our Sponsor</h1>
+        <h1 class="white-text section-heading" data-cs="section-be_sponsor"></h1>
         <br><br>
         <div class="row">
-            <p class="flow-text white-text">If you are interested in sponsoring IncubateDFW, you can view our
-                <a href="https://docs.google.com/presentation/d/1YiSx5JMCKeMDfFszUfi3kdZ76C3hxvd5YqN68t0IRDk"
-                   target="_blank" class="teal-text text-lighten-2"
-                   style="">sponsor packet</a>.
-
-                For more information, contact us at <a href="mailto:dfw@incubatex.org"
-                                                       class="teal-text text-lighten-2">dfw@incubatex.org</a>.
-            </p>
+            <p class="flow-text white-text" data-cs="sponsor_contact"></p>
         </div>
-        <div class="parallax"><img src="img/15.jpg">
+        <div><img data-cs="bg-bottom">
         </div>
     </div>
 </section>
@@ -361,12 +259,12 @@
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">Contact Us</h5>
+                <h5 class="white-text" data-cs="contact_us"></h5>
                 <h5 style="margin-top:-5px;">
-                    <a class="grey-text text-lighten-3" href="mailto:dfw@incubatex.org"><i class="fa fa-envelope-o"></i></a>
-                    <a class="grey-text text-lighten-3" href="https://www.facebook.com/incubatedfw/" target="_blank"> <i
+                    <a class="grey-text text-lighten-3" data-cs="contact-email"><i class="fa fa-envelope-o"></i></a>
+                    <a class="grey-text text-lighten-3" data-cs="contact-facebook" target="_blank"> <i
                             class="fa fa-facebook"></i></a>
-                    <a class="grey-text text-lighten-3" href="https://www.twitter.com/incubatedfw/" target="_blank"> <i
+                    <a class="grey-text text-lighten-3" data-cs="contact-twitter" target="_blank"> <i
                             class="fa fa-twitter"></i></a>
                 </h5>
             </div>
@@ -385,8 +283,8 @@
     </div>
 </footer>
 
-
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/customize.min.js"></script>
 <script src="js/materialize.min.js"></script>
 <script src="js/scrollspy.min.js"></script>
 <script src="js/countUp.min.js"></script>
