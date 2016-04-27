@@ -1,2 +1,4 @@
-# IncubateDFW Website
-This repo holds the source code for the IncubateDFW hackathon's website.
+# IncubateTemplate
+Template for each Incubate websites
+
+`The instruction will be added soon.`
