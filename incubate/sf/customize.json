@@ -318,7 +318,7 @@
       ]
     }
   },
-  "sponsor_contact": "If you are interested in sponsoring IncubateSF, you can view our <a href='https://docs.google.com/presentation/d/1YiSx5JMCKeMDfFszUfi3kdZ76C3hxvd5YqN68t0IRDk' target='_blank' class='teal-text text-lighten-2'>sponsor packet</a>. For more information, contact us at <a href='mailto:sf@incubatex.org' class='teal-text text-lighten-2'>sf@incubatex.org</a>.",
+  "sponsor_contact": "If you are interested in sponsoring IncubateSF, you can view our <a href='https://docs.google.com/presentation/d/1YiSx5JMCKeMDfFszUfi3kdZ76C3hxvd5YqN68t0IRDk' target='_blank' class='deep-orange-text text-lighten-2'>sponsor packet</a>. For more information, contact us at <a href='mailto:sf@incubatex.org' class='deep-orange-text text-lighten-2'>sf@incubatex.org</a>.",
   "contact_us": "Contact Us",
   "contact": {
     "email": {
