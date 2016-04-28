@@ -1,6 +1,8 @@
 # IncubateTemplate
 Template for Incubate hackathon websites
 
+If you get stuck on any of steps, feel free to ask <a href="http://fb.com/parkjs814">`@parkjs814`</a>.
+
 Prerequisite
 ------------
 ### Install Sass
@@ -23,6 +25,15 @@ Instruction
     $ sass sass/primary-color.scss css/materialize.min.css
 ### 7. Modify `<title>` tag and `<meta>` tags in `index.html`
 ### 8. Change image files in `img` directory and `favicon.ico` file
+For the shadow of the `img/IncubateLogoW.png` file, options are as follow.
+
+| Option   | Value |
+|----------|-------|
+| Opacity  | 30%   |
+| Angle    | -180° |
+| Distance | 3px   |
+| Spread   | 41%   |
+| Size     | 27px  |
 ### 9. Customize with modifying `customize.json`
 ### 10. Publish it
     $ git add .
