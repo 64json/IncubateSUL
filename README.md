@@ -1,7 +1,7 @@
 # IncubateTemplate
 Template for Incubate hackathon websites
 
-If you get stuck on any of steps, feel free to ask <a href="http://fb.com/parkjs814">`@parkjs814`</a>.
+If you get stuck on any of steps, feel free to ask <a href="http://fb.com/parkjs814" target="_blank">`@parkjs814`</a>.
 
 Prerequisite
 ------------
@@ -18,9 +18,9 @@ Instruction
     $ cp -R incubate/dfw incubate/[city_initial]
 ### 4. Change the current directory to `incubate/[city_initial]`
     $ cd incubate/[city_initial]
-### 5. Change the primary color in 2nd line of `sass/primary-color.scss`
+### 5. Change the primary color on the 2nd line of `sass/primary-color.scss`
     $primary-color: color("[primary_color]", "lighten-2") !default;
-**NOTE** that primary color should be chosen from <a href="http://materializecss.com/color.html">Color Palette</a>
+**NOTE** that primary color should be chosen from <a href="http://materializecss.com/color.html" target="_blank">Color Palette</a>.
 ### 6. Compile `.scss` files into the `materialize.min.css` file
     $ sass sass/primary-color.scss css/materialize.min.css
 ### 7. Modify `<title>` tag and `<meta>` tags in `index.html`
@@ -40,4 +40,4 @@ For the shadow of the `img/IncubateLogoW.png` file, options are as follow.
     $ git commit -m 'customize for Incubate[CITY_INITIAL]'
     $ git push origin master master:gh-pages
 ### 11. Check it
-<a href="http://incubatex.github.io/IncubateTemplate/incubate/[city_initial]">http://incubatex.github.io/IncubateTemplate/incubate/[city_initial]</a>
+<a href="http://incubatex.github.io/IncubateTemplate/incubate/[city_initial]" target="_blank">http://incubatex.github.io/IncubateTemplate/incubate/[city_initial]</a>
