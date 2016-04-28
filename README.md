@@ -19,7 +19,7 @@ Instruction
 ### 4. Change the current directory to `incubate/[city_initial]`
     $ cd incubate/[city_initial]
 ### 5. Change the primary color in 2nd line of `sass/primary-color.scss`
-    $primary-color: color("[primary_color]", "[lightness/darkness]") !default;
+    $primary-color: color("[primary_color]", "lighten-2") !default;
 **NOTE** that primary color should be chosen from <a href="http://materializecss.com/color.html">Color Palette</a>
 ### 6. Compile `.scss` files into the `materialize.min.css` file
     $ sass sass/primary-color.scss css/materialize.min.css
