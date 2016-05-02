@@ -103,7 +103,7 @@
     "application": {
       "title": "Application",
       "contents": {
-        "$type": "array",
+        "$type": "array_cols",
         "$value": [
           {
             "question": "Who can apply?",
@@ -117,13 +117,16 @@
             "question": "What is the application deadline?",
             "answer": "This will be decided later. The sooner you apply, the better!"
           }
-        ]
+        ],
+        "$options": {
+          "colsInRow": 3
+        }
       }
     },
     "logistics": {
       "title": "Logistics",
       "contents": {
-        "$type": "array",
+        "$type": "array_cols",
         "$value": [
           {
             "question": "When/Where?",
@@ -137,13 +140,16 @@
             "question": "What should I bring?",
             "answer": "Bring your laptop, toiletries, a sleeping bag, and any other technology that you want to hack with. You <strong>don't</strong> need a predetermined team or a product idea."
           }
-        ]
+        ],
+        "$options": {
+          "colsInRow": 3
+        }
       }
     },
     "hacking": {
       "title": "Hacking",
       "contents": {
-        "$type": "array",
+        "$type": "array_cols",
         "$value": [
           {
             "question": "How much time will we have to hack?",
@@ -157,13 +163,16 @@
             "question": "Do I need to be able to code?",
             "answer": "No! Participants will be able to act as product managers or designers for their teams, or play other roles. If you don't know how to code but want to learn, you can attend one of our various workshops."
           }
-        ]
+        ],
+        "$options": {
+          "colsInRow": 3
+        }
       }
     },
     "other": {
       "title": "Other",
       "contents": {
-        "$type": "array",
+        "$type": "array_cols",
         "$value": [
           {
             "question": "How much does the event cost?",
@@ -177,7 +186,10 @@
             "question": "Will there be prizes?",
             "answer": "Yes. We will have both physical prizes and opportunities with sponsoring companies. A full list of prizes will be released later."
           }
-        ]
+        ],
+        "$options": {
+          "colsInRow": 3
+        }
       }
     }
   },
@@ -185,7 +197,7 @@
     "day1": {
       "date": "August 6th, 2016",
       "table": {
-        "$type": "array",
+        "$type": "array_rows",
         "$value": [
           {
             "time": "9AM",
@@ -228,7 +240,7 @@
     "day2": {
       "date": "August 7th, 2016",
       "table": {
-        "$type": "array",
+        "$type": "array_rows",
         "$value": [
           {
             "time": "12AM",
@@ -276,11 +288,14 @@
   },
   "sponsors": {
     "name_sponsor": {
-      "$type": "array",
-      "$value": []
+      "$type": "array_cols",
+      "$value": [],
+      "$options": {
+        "colsInRow": 2
+      }
     },
     "gold": {
-      "$type": "array",
+      "$type": "array_cols",
       "$value": [
         {
           "link": {
@@ -292,10 +307,13 @@
             "$value": "sponsors/2ndGen.png"
           }
         }
-      ]
+      ],
+      "$options": {
+        "colsInRow": 3
+      }
     },
     "silver": {
-      "$type": "array",
+      "$type": "array_cols",
       "$value": [
         {
           "link": {
@@ -307,10 +325,13 @@
             "$value": "sponsors/2ndGen.png"
           }
         }
-      ]
+      ],
+      "$options": {
+        "colsInRow": 4
+      }
     },
     "bronze": {
-      "$type": "array",
+      "$type": "array_cols",
       "$value": [
         {
           "link": {
@@ -322,7 +343,10 @@
             "$value": "sponsors/2ndGen.png"
           }
         }
-      ]
+      ],
+      "$options": {
+        "colsInRow": 6
+      }
     }
   },
   "sponsor_contact": "If you are interested in sponsoring IncubateSF, you can view our <a href='https://docs.google.com/presentation/d/1YiSx5JMCKeMDfFszUfi3kdZ76C3hxvd5YqN68t0IRDk' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:sf@incubatex.org'>sf@incubatex.org</a>.",
