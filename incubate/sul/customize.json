@@ -22,7 +22,7 @@
     }
   },
   "nav": {
-    "about": "About",
+    "about": "소개",
     "faq": "FAQ",
     "schedule": "스케쥴",
     "sponsors": "후원사",
@@ -44,8 +44,15 @@
   },
   "date": "8월 6~7일",
   "venue": "서울창조경제혁신센터",
-  "btn_sponsor": "Sponsor Us",
-  "btn_register": "Register",
+  "btn_sponsor": "후원하기",
+  "btn_register": [
+    "참가 신청",
+    {
+      "$type": "link",
+      "$value": null
+    }
+  ],
+  "no_registration_yet": "참가 신청 기간이 아닙니다.<br>나중에 다시 확인해주세요.",
   "section": {
     "faq": "자주하는 질문",
     "schedule": "스케쥴",
@@ -99,12 +106,12 @@
         "$type": "array",
         "$value": [
           {
-            "question": "Who can apply?",
-            "answer": "Any high school or college student can apply to participate in IncubateSUL, regardless of experience with programming. Because it is an entrepreneurship event, we are looking for a diverse pool of participants in terms of skillsets."
+            "question": "누가 신청할 수 있나요?",
+            "answer": "고등학생과 대학생 또는 만 16세에서 23세 사이라면 누구든지 IncubateSUL에 참가 신청 가능합니다. IncubateX는 꼭 프로그래밍이 아니더라도 다양한 역량을 지닌 참가자들을 환영합니다."
           },
           {
-            "question": "How do I apply?",
-            "answer": "Just fill out the registration form! More info will be sent out later."
+            "question": "어떻게 신청하나요?",
+            "answer": "<a href=> More info will be sent out later."
           },
           {
             "question": "What is the application deadline?",

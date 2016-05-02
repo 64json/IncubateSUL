@@ -45,7 +45,14 @@
   "date": "August 6-7",
   "venue": "Dallas Fort Work",
   "btn_sponsor": "Sponsor Us",
-  "btn_register": "Register",
+  "btn_register": [
+    "Register",
+    {
+      "$type": "link",
+      "$value": null
+    }
+  ],
+  "no_registration_yet": "Registration is not yet open.<br>Please check back in a few weeks!",
   "section": {
     "faq": "Frequently Asked Questions",
     "schedule": "Schedule",
