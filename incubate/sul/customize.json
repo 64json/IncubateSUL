@@ -24,7 +24,7 @@
   "nav": {
     "about": "소개",
     "faq": "FAQ",
-    "schedule": "스케쥴",
+    "schedule": "일정",
     "sponsors": "후원사",
     "contact": "문의"
   },
@@ -55,7 +55,7 @@
   "no_registration_yet": "참가 신청 기간이 아닙니다.<br>나중에 다시 확인해주세요.",
   "section": {
     "faq": "자주하는 질문",
-    "schedule": "스케쥴",
+    "schedule": "일정",
     "our_sponsors": "후원사",
     "be_sponsor": "후원하기"
   },
@@ -65,24 +65,24 @@
         "$type": "class",
         "$value": "fa-book"
       },
-      "head": "Learn",
-      "body": "IncubateSUL will be an educational experience for participants of all levels. We will have various workshops from which participants can learn entirely new skills or platforms, and many mentors who will be able to share their knowledge acquired with years of experience."
+      "head": "배움",
+      "body": "IncubateSUL은 참가자들에게 최신 기술, 디자인 기법, 아이디어 구체화 방법, 창업 전략 등을 배울 수 있는 좋은 기회가 될 것입니다. 해커톤과 동시에 다양한 주제의 워크숍이 진행되며, 각 분야에서의 경험이 많은 전문가분들이 멘토로 참여하여 참가팀들을 지원합니다."
     },
     "second": {
       "icon": {
         "$type": "class",
-        "$value": "fa-lightbulb-o"
+        "$value": "fa-users"
       },
-      "head": "Build",
-      "body": "IncubateSUL will foster growth, creating an environment in which participants can create revolutionary products with technology. With 30 hours to hack, teams will have the ability to complete polished products with the potential to disrupt industries."
+      "head": "협력",
+      "body": "IncubateSUL은 3~5명의 다양한 역량을 가진 참가자들이 하나의 팀을 이뤄 협력을 통해 아이디어를 프로토타입으로 만드는 경연입니다. 팀원 간의 협력 뿐만 아니라 다른 팀과도 도움을 주고받을 수 있는 환경을 조성하여 활발한 네트워크의 장이 될 것입니다."
     },
     "third": {
       "icon": {
         "$type": "class",
-        "$value": "fa-users"
+        "$value": "fa-lightbulb-o"
       },
-      "head": "Connect",
-      "body": "Because IncubateSUL is an entrepreneurship hackathon, participants will have diverse skillsets. Designers, developers, and budding entrepreneurs will come together to network and create amazing products."
+      "head": "기업가정신",
+      "body": "IncubateSUL은 참가자들이 참신한 아이디어를 프로토타입으로 만드는 것에 그치지 않고 추후에 창업 등을 통해 완성품을 출시함으로써 우리 사회에 긍적적인 영향을 미칠 수 있도록 격려할 것입니다. 창업을 원하는 팀에게는 창업지원 프로그램 등을 통하여 지원해드릴 것입니다."
     }
   },
   "countup": {
@@ -111,11 +111,11 @@
           },
           {
             "question": "어떻게 신청하나요?",
-            "answer": "<a href=> More info will be sent out later."
+            "answer": "6월 초부터 참가 신청이 가능할 예정입니다. <a href='https://www.facebook.com/IncubateSUL' target='_blank'>페이스북 페이지</a>에 좋아요를 누르셔서 소식을 받아보세요!"
           },
           {
-            "question": "What is the application deadline?",
-            "answer": "This will be decided later. The sooner you apply, the better!"
+            "question": "언제까지 신청할 수 있나요?",
+            "answer": "IncubateSUL 시작 3일 전까지 신청이 가능합니다. 일찍 신청하셔야 여유롭게 팀빌딩을 하실 수 있습니다."
           }
         ]
       }
@@ -126,16 +126,16 @@
         "$type": "array",
         "$value": [
           {
-            "question": "When/Where?",
-            "answer": "IncubateSUL will take place on August 6-7 at the 서울창조경제혁신센터."
+            "question": "언제 어디서 열리나요?",
+            "answer": "IncubateSUL은 8월 6일부터 7일까지 <a href='https://www.google.com/maps/place/서울창조경제혁신센터/@37.5722323,126.9757385,17z/data=!3m1!4b1!4m2!3m1!1s0x357ca2ec9a36031b:0xb554b8d44012152' target='_blank'>서울창조경제혁신센터</a>에서 열립니다."
           },
           {
-            "question": "Is there transportation or travel reimbursement?",
-            "answer": "TBD."
+            "question": "경비 지원이 있나요?",
+            "answer": "서울/경기/인천 이외의 지역에서 오는 참가자들에 한하여 신청선착순 50명에게 최대 3만원까지 지원해드립니다. (영수증 제출 필요)"
           },
           {
-            "question": "What should I bring?",
-            "answer": "Bring your laptop, toiletries, a sleeping bag, and any other technology that you want to hack with. You <strong>don't</strong> need a predetermined team or a product idea."
+            "question": "무엇을 가져가야 하나요?",
+            "answer": "노트북 및 충전기, 칫솔, 침낭, 프로젝트에 필요한 하드웨어 등을 가져오시면 됩니다. 멀티탭, 비누, 치약, 데오드란트는 준비되어있습니다."
           }
         ]
       }
@@ -146,16 +146,16 @@
         "$type": "array",
         "$value": [
           {
-            "question": "How much time will we have to hack?",
-            "answer": "Teams will have 30 hours to build their products."
+            "question": "몇 시간동안 작업할 수 있나요?",
+            "answer": "실질적으로 작업할 수 있는 시간은 24시간입니다."
           },
           {
-            "question": "Will there be hardware or API keys provided?",
-            "answer": "Yes. We will release a list of hardware and API's later."
+            "question": "하드웨어나 API키 등이 지원될 예정인가요?",
+            "answer": "아직까지는 미정입니다."
           },
           {
-            "question": "Do I need to be able to code?",
-            "answer": "No! Participants will be able to act as product managers or designers for their teams, or play other roles. If you don't know how to code but want to learn, you can attend one of our various workshops."
+            "question": "꼭 프로그래밍을 할 줄 알아야하나요?",
+            "answer": "절대 아닙니다! 참가자들은 기획자나 디자이너 등으로 참가할 수 있으며, 다양한 워크숍을 통해 현장에서 프로그래밍을 배우실 수도 있습니다."
           }
         ]
       }
@@ -166,16 +166,16 @@
         "$type": "array",
         "$value": [
           {
-            "question": "How much does the event cost?",
-            "answer": "It's free! We will also provide meals, snacks, and refreshments throughout the event."
+            "question": "참가비는 얼마인가요?",
+            "answer": "무료입니다! 4끼의 식사와 야식 또한 제공됩니다. 다만, 높은 참가율을 위해 신청시에 1만원의 보증금을 받으며 해커톤이 끝난 후 반환됩니다."
           },
           {
-            "question": "Is there a Code of Conduct?",
-            "answer": "Yes, <a href='http://static.mlh.io/docs/mlh-code-of-conduct.pdf' target='_blank'>here</a>. <br>tl;dr respect other participants and don't be a jerk."
+            "question": "행동강령이 있나요?",
+            "answer": "네, <a href='http://static.mlh.io/docs/mlh-code-of-conduct.pdf' target='_blank'>여기</a>있습니다. <br>한마디로 요약하자면, 다른 참가자들을 존중해주세요."
           },
           {
-            "question": "Will there be prizes?",
-            "answer": "Yes. We will have both physical prizes and opportunities with sponsoring companies. A full list of prizes will be released later."
+            "question": "상은 무엇인가요?",
+            "answer": "네. 상금과 트로피가 있으며, 후원사로부터 인턴쉽 또는 취업을 제안받을 수 있습니다. 자세한 사항은 추후에 발표될 예정입니다."
           }
         ]
       }
@@ -183,94 +183,17 @@
   },
   "schedule": {
     "day1": {
-      "date": "2016년 8월 6일",
+      "date": "2016년 8월 6~7일",
       "table": {
         "$type": "array",
-        "$value": [
-          {
-            "time": "9AM",
-            "event": "Check In",
-            "place": "Lobby"
-          },
-          {
-            "time": "10AM",
-            "event": "Welcome + Keynotes",
-            "place": "Cafeteria"
-          },
-          {
-            "time": "11AM",
-            "event": "Demos",
-            "place": "Cafeteria"
-          },
-          {
-            "time": "12PM",
-            "event": "Hacking Begins",
-            "place": "Band Hall"
-          },
-          {
-            "time": "1PM",
-            "event": "Lunch",
-            "place": "Lobby"
-          },
-          {
-            "time": "2PM",
-            "event": "Workshops",
-            "place": "Band Hall"
-          },
-          {
-            "time": "7PM",
-            "event": "Dinner",
-            "place": "Lobby"
-          }
-        ]
+        "$value": []
       }
     },
     "day2": {
-      "date": "2016년 8월 7일",
+      "date": "자세한 일정은 6월 초에 공지될 예정입니다.",
       "table": {
         "$type": "array",
-        "$value": [
-          {
-            "time": "12AM",
-            "event": "Midnight Snack",
-            "place": "Band Hall"
-          },
-          {
-            "time": "3AM",
-            "event": "HypeFest",
-            "place": "Band Hall"
-          },
-          {
-            "time": "5AM",
-            "event": "Surprise",
-            "place": "Lobby"
-          },
-          {
-            "time": "7AM",
-            "event": "Breakfast",
-            "place": "Lobby"
-          },
-          {
-            "time": "12PM",
-            "event": "Lunch & Hacking Ends",
-            "place": "Lobby"
-          },
-          {
-            "time": "1PM",
-            "event": "Hack Demo Fair",
-            "place": "Lobby"
-          },
-          {
-            "time": "2PM",
-            "event": "Closing Ceremony",
-            "place": "Auditorium"
-          },
-          {
-            "time": "3PM",
-            "event": "Hackathon Ends",
-            "place": "Auditorium"
-          }
-        ]
+        "$value": []
       }
     }
   },
@@ -325,7 +248,7 @@
       ]
     }
   },
-  "sponsor_contact": "If you are interested in sponsoring IncubateSUL, you can view our <a href='https://docs.google.com/presentation/d/1YiSx5JMCKeMDfFszUfi3kdZ76C3hxvd5YqN68t0IRDk' target='_blank' class='pink-text text-lighten-2'>sponsor packet</a>. For more information, contact us at <a href='mailto:sul@incubatex.org' class='pink-text text-lighten-2'>sul@incubatex.org</a>.",
+  "sponsor_contact": "IncubateSUL을 후원하는 것에 관심이 있으시다면, 저희의 <a href='https://docs.google.com/presentation/d/1VhuRoBYJVKLpmMQrJkUNNRL4sMiczD0BmwGoCvrvXzo' target='_blank'>후원사 제안서</a>를 확인해주세요! 자세한 정보를 원하신다면 <a href='mailto:sul@incubatex.org'>sul@incubatex.org</a>로 연락해주세요.",
   "contact_us": "Contact Us",
   "contact": {
     "email": {

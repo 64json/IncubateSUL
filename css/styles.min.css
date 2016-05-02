@@ -28,10 +28,6 @@ p {
     font-family: 'roboto', Helvetica, sans-serif;
 }
 
-a {
-    color: teal;
-}
-
 .navbar-fixed {
     height: 0;
 }
@@ -180,6 +176,10 @@ section:not(.cardpage) {
 #countup {
     padding-top: 128px;
     padding-bottom: 128px;
+}
+
+.flow-text {
+    word-break: keep-all;
 }
 
 .date {
