@@ -324,12 +324,12 @@
       }
     }
   },
-  "sponsor_contact": "If you are interested in sponsoring IncubateDFW, you can view our <a href='https://docs.google.com/presentation/d/1YiSx5JMCKeMDfFszUfi3kdZ76C3hxvd5YqN68t0IRDk' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:dfw@incubatex.org'>dfw@incubatex.org</a>.",
+  "sponsor_contact": "If you are interested in sponsoring IncubateDFW, you can view our <a href='https://docs.google.com/presentation/d/1YiSx5JMCKeMDfFszUfi3kdZ76C3hxvd5YqN68t0IRDk' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:sponsor@incubatedfw.com'>sponsor@incubatedfw.com</a>.",
   "contact_us": "Contact Us",
   "contact": {
     "email": {
       "$type": "link",
-      "$value": "mailto:dfw@incubatex.org"
+      "$value": "mailto:contact@incubatedfw.com"
     },
     "facebook": {
       "$type": "link",
