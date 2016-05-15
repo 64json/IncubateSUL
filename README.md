@@ -19,8 +19,7 @@ Instruction
 ### 4. Change the current directory to `incubate/[city_initial]`
     $ cd incubate/[city_initial]
 ### 5. Change the primary color on the 2nd line of `sass/primary-color.scss`
-    $primary-color: color("[primary_color]", "lighten-2") !default;
-**NOTE** that primary color should be chosen from <a href="http://materializecss.com/color.html#palette" target="_blank">Color Palette</a>.
+    $primary-color: rgb(67, 198, 219) !default;
 ### 6. Compile `.scss` files into the `materialize.min.css` file
     $ sass sass/primary-color.scss css/materialize.min.css
 ### 7. Modify `<title>` tag and `<meta>` tags in `index.html`
