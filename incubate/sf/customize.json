@@ -286,10 +286,7 @@
   "sponsors": {
     "name_sponsor": {
       "$type": "array_cols",
-      "$value": [],
-      "$options": {
-        "colsInRow": 2
-      }
+      "$value": []
     },
     "gold": {
       "$type": "array_cols",
@@ -304,24 +301,15 @@
             "$value": "sponsors/2ndGen.png"
           }
         }
-      ],
-      "$options": {
-        "colsInRow": 3
-      }
+      ]
     },
     "silver": {
       "$type": "array_cols",
-      "$value": [],
-      "$options": {
-        "colsInRow": 4
-      }
+      "$value": []
     },
     "bronze": {
       "$type": "array_cols",
-      "$value": [],
-      "$options": {
-        "colsInRow": 6
-      }
+      "$value": []
     }
   },
   "sponsor_contact": "If you are interested in sponsoring IncubateSF, you can view our <a href='https://drive.google.com/file/d/0B1i3yw36qU8XSV92NGFlWVdERnM/view?usp=sharing' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:sf@incubatex.org'>sf@incubatex.org</a>.",

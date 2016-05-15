@@ -286,10 +286,7 @@
   "sponsors": {
     "name_sponsor": {
       "$type": "array_cols",
-      "$value": [],
-      "$options": {
-        "colsInRow": 2
-      }
+      "$value": []
     },
     "gold": {
       "$type": "array_cols",
@@ -304,24 +301,15 @@
             "$value": "sponsors/2ndGen.png"
           }
         }
-      ],
-      "$options": {
-        "colsInRow": 3
-      }
+      ]
     },
     "silver": {
       "$type": "array_cols",
-      "$value": [],
-      "$options": {
-        "colsInRow": 4
-      }
+      "$value": []
     },
     "bronze": {
       "$type": "array_cols",
-      "$value": [],
-      "$options": {
-        "colsInRow": 6
-      }
+      "$value": []
     }
   },
   "sponsor_contact": "If you are interested in sponsoring IncubateDFW, you can view our <a href='https://docs.google.com/presentation/d/1YiSx5JMCKeMDfFszUfi3kdZ76C3hxvd5YqN68t0IRDk' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:sponsor@incubatedfw.com'>sponsor@incubatedfw.com</a>.",

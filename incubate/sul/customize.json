@@ -217,10 +217,7 @@
   "sponsors": {
     "name_sponsor": {
       "$type": "array_cols",
-      "$value": [],
-      "$options": {
-        "colsInRow": 2
-      }
+      "$value": []
     },
     "gold": {
       "$type": "array_cols",
@@ -235,24 +232,15 @@
             "$value": "sponsors/2ndGen.png"
           }
         }
-      ],
-      "$options": {
-        "colsInRow": 3
-      }
+      ]
     },
     "silver": {
       "$type": "array_cols",
-      "$value": [],
-      "$options": {
-        "colsInRow": 4
-      }
+      "$value": []
     },
     "bronze": {
       "$type": "array_cols",
-      "$value": [],
-      "$options": {
-        "colsInRow": 6
-      }
+      "$value": []
     }
   },
   "sponsor_contact": "IncubateSUL을 후원하는 것에 관심이 있으시다면, 저희의 <a href='https://docs.google.com/presentation/d/1VhuRoBYJVKLpmMQrJkUNNRL4sMiczD0BmwGoCvrvXzo' target='_blank'>후원사 제안서</a>를 확인해주세요! 자세한 정보를 원하신다면 <a href='mailto:sul@incubatex.org'>sul@incubatex.org</a>로 연락해주세요.",
