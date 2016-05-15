@@ -1,15 +1,12 @@
 {
   "title": "IncubateSF",
-  "theme": {
+  "color": {
     "$type": "theme",
-    "$value": {
-      "color": "deep-orange",
-      "rgb": [
-        255,
-        87,
-        34
-      ]
-    }
+    "$value": [
+      255,
+      87,
+      34
+    ]
   },
   "logo": {
     "small": {
@@ -314,42 +311,20 @@
     },
     "silver": {
       "$type": "array_cols",
-      "$value": [
-        {
-          "link": {
-            "$type": "link",
-            "$value": "http://www.secondgen.org"
-          },
-          "image": {
-            "$type": "image",
-            "$value": "sponsors/2ndGen.png"
-          }
-        }
-      ],
+      "$value": [],
       "$options": {
         "colsInRow": 4
       }
     },
     "bronze": {
       "$type": "array_cols",
-      "$value": [
-        {
-          "link": {
-            "$type": "link",
-            "$value": "http://www.secondgen.org"
-          },
-          "image": {
-            "$type": "image",
-            "$value": "sponsors/2ndGen.png"
-          }
-        }
-      ],
+      "$value": [],
       "$options": {
         "colsInRow": 6
       }
     }
   },
-  "sponsor_contact": "If you are interested in sponsoring IncubateSF, you can view our <a href='https://docs.google.com/presentation/d/1YiSx5JMCKeMDfFszUfi3kdZ76C3hxvd5YqN68t0IRDk' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:sf@incubatex.org'>sf@incubatex.org</a>.",
+  "sponsor_contact": "If you are interested in sponsoring IncubateSF, you can view our <a href='https://drive.google.com/file/d/0B1i3yw36qU8XSV92NGFlWVdERnM/view?usp=sharing' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:sf@incubatex.org'>sf@incubatex.org</a>.",
   "contact_us": "Contact Us",
   "contact": {
     "email": {

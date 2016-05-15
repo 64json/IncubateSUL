@@ -1,15 +1,12 @@
 {
   "title": "IncubateDFW",
-  "theme": {
+  "color": {
     "$type": "theme",
-    "$value": {
-      "color": "teal",
-      "rgb": [
-        1,
-        138,
-        123
-      ]
-    }
+    "$value": [
+      67,
+      198,
+      219
+    ]
   },
   "logo": {
     "small": {
@@ -314,36 +311,14 @@
     },
     "silver": {
       "$type": "array_cols",
-      "$value": [
-        {
-          "link": {
-            "$type": "link",
-            "$value": "http://www.secondgen.org"
-          },
-          "image": {
-            "$type": "image",
-            "$value": "sponsors/2ndGen.png"
-          }
-        }
-      ],
+      "$value": [],
       "$options": {
         "colsInRow": 4
       }
     },
     "bronze": {
       "$type": "array_cols",
-      "$value": [
-        {
-          "link": {
-            "$type": "link",
-            "$value": "http://www.secondgen.org"
-          },
-          "image": {
-            "$type": "image",
-            "$value": "sponsors/2ndGen.png"
-          }
-        }
-      ],
+      "$value": [],
       "$options": {
         "colsInRow": 6
       }

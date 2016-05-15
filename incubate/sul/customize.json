@@ -1,15 +1,12 @@
 {
   "title": "IncubateSUL",
-  "theme": {
+  "color": {
     "$type": "theme",
-    "$value": {
-      "color": "pink",
-      "rgb": [
-        233,
-        31,
-        99
-      ]
-    }
+    "$value": [
+      233,
+      31,
+      99
+    ]
   },
   "logo": {
     "small": {
@@ -43,7 +40,7 @@
     }
   },
   "date": "8월 6~7일",
-  "venue": "서울창조경제혁신센터",
+  "venue": "서울창조경제혁신센터 (예정)",
   "btn_sponsor": "후원하기",
   "btn_register": [
     "참가 신청",
@@ -87,7 +84,7 @@
   },
   "countup": {
     "attendees": {
-      "number": 200,
+      "number": 150,
       "unit": "명의 참가자"
     },
     "hours": {
@@ -107,7 +104,7 @@
         "$value": [
           {
             "question": "누가 참가할 수 있나요?",
-            "answer": "고등학생과 대학생 또는 만 16세에서 23세 사이라면 누구든지 IncubateSUL에 참가 신청이 가능합니다. IncubateX는 꼭 프로그래밍이 아니더라도 다양한 역량을 지닌 참가자들을 환영합니다."
+            "answer": "대학생 및 고등학생 또는 만 16세에서 23세 사이라면 누구든지 IncubateSUL에 참가 신청이 가능합니다. IncubateX는 꼭 프로그래밍이 아니더라도 다양한 역량을 지닌 참가자들을 환영합니다."
           },
           {
             "question": "어떻게 신청하나요?",
@@ -245,36 +242,14 @@
     },
     "silver": {
       "$type": "array_cols",
-      "$value": [
-        {
-          "link": {
-            "$type": "link",
-            "$value": "http://www.secondgen.org"
-          },
-          "image": {
-            "$type": "image",
-            "$value": "sponsors/2ndGen.png"
-          }
-        }
-      ],
+      "$value": [],
       "$options": {
         "colsInRow": 4
       }
     },
     "bronze": {
       "$type": "array_cols",
-      "$value": [
-        {
-          "link": {
-            "$type": "link",
-            "$value": "http://www.secondgen.org"
-          },
-          "image": {
-            "$type": "image",
-            "$value": "sponsors/2ndGen.png"
-          }
-        }
-      ],
+      "$value": [],
       "$options": {
         "colsInRow": 6
       }
