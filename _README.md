@@ -1,5 +1,5 @@
-# Incubate{city}
-Incubate{city} website
+# Incubate{CITY}
+Incubate{CITY} website
 
 If you get stuck on any of steps, feel free to ask <a href="http://fb.com/parkjs814" target="_blank">`@parkjs814`</a>.
 
