@@ -1,5 +1,5 @@
-# Incubate{city}
-Incubate{city} website
+# Incubatesul
+Incubatesul website
 
 If you get stuck on any of steps, feel free to ask <a href="http://fb.com/parkjs814" target="_blank">`@parkjs814`</a>.
 
@@ -11,7 +11,7 @@ Prerequisite
 Instruction
 -----------
 #### 1. Clone this repository
-    git clone https://github.com/IncubateX/{city}.git
+    git clone https://github.com/IncubateX/sul.git
 #### 2. Change the primary color on the 2nd line of `sass/primary-color.scss`
     $primary-color: rgb(67, 198, 219) !default;
 #### 3. Compile `.scss` files into the `materialize.min.css` file
@@ -33,7 +33,7 @@ For the shadow of the `img/IncubateLogoW.png` file, options are as follow.
     git commit -m 'initial customization'
     git push origin master master:gh-pages
 #### 8. Check it
-<a href="http://incubatex.org/{city}" target="_blank">http://incubatex.org/{city}</a>
+<a href="http://incubatex.org/sul" target="_blank">http://incubatex.org/sul</a>
 
 Synchronize with IncubateTemplate
 ---------------------------------
