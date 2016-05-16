@@ -8,4 +8,6 @@ Manual Fork
     git remote add upstream https://github.com/IncubateX/IncubateTemplate.git
 #### 3. Replace all `{city}` into your city initial (such as `dfw`) in `README.md` file
 #### 4. Push it (don't forget `-u` option)
+    git add .
+    git commit -m 'fork from IncubateTemplate'
     git push -u origin master
