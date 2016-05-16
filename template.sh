@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 city=$1
+if !([ -n "$city" ]); then
+    echo "empty city initial"
+    exit
+fi
 CITY=`echo ${city:0:1} | tr  '[a-z]' '[A-Z]'`${city:1}
 git clone https://github.com/IncubateX/IncubateTemplate.git $city
 cd $city
