@@ -1,6 +1,6 @@
 Manual Fork
 -----------
-### 1. Create `{city}` (such as `dfw`) repo
+### 1. Create `{city}` (such as `dfw`) repository in `IncubateX` organization
 ### 2. Type these
     git clone https://github.com/IncubateX/IncubateTemplate.git {city}
     cd {city}
