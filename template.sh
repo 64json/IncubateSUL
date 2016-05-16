@@ -5,7 +5,7 @@ if !([ -n "$city" ]); then
     echo "empty city initial"
     exit
 fi
-CITY=`echo ${city:0:1} | tr  '[a-z]' '[A-Z]'`${city:1}
+CITY=$(echo $city | tr 'a-z' 'A-Z')
 git clone https://github.com/IncubateX/IncubateTemplate.git $city
 cd $city
 git remote set-url origin https://github.com/IncubateX/${city}.git
