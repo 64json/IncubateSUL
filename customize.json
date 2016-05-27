@@ -40,7 +40,7 @@
     }
   },
   "date": "8월 6~7일",
-  "venue": "서울창조경제혁신센터 (예정)",
+  "venue": "롯데엑셀러레이터 (예정)",
   "btn_sponsor": "후원하기",
   "btn_register": [
     "참가 신청",
@@ -131,7 +131,7 @@
         "$value": [
           {
             "question": "언제 어디서 열리나요?",
-            "answer": "IncubateSUL은 8월 6일부터 7일까지 <a href='https://www.google.com/maps/place/서울창조경제혁신센터/@37.5722323,126.9757385,17z/data=!3m1!4b1!4m2!3m1!1s0x357ca2ec9a36031b:0xb554b8d44012152' target='_blank'>서울 창조경제혁신센터</a>에서 열립니다."
+            "answer": "IncubateSUL은 8월 6일부터 7일까지 <a href='http://map.naver.com/?dlevel=12&lat=37.5061948&lng=127.0524029&query=7ISc7Jq47Yq567OE7IucIOqwleuCqOq1rCDthYztl6TrnoDroZw2Oeq4uCA1&type=ADDRESS&tab=1&isDetailAddress=true&isNewAddress=true&rcode=09680105&enc=b64' target='_blank'>롯데엑셀러레이터</a>에서 열립니다."
           },
           {
             "question": "경비 지원이 있나요?",
