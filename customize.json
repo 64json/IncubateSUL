@@ -40,7 +40,7 @@
     }
   },
   "date": "8월 6~7일",
-  "venue": "미정",
+  "venue": "추후 공지",
   "btn_sponsor": "후원하기",
   "btn_register": [
     "참가 신청",
@@ -299,7 +299,7 @@
           },
           "image": {
             "$type": "image",
-            "$value": "sponsors/2ndGen.png"
+            "$value": "sponsors/2ndGen.jpg"
           }
         }
       ]
