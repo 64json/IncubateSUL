@@ -299,7 +299,7 @@
           },
           "image": {
             "$type": "image",
-            "$value": "sponsors/2ndGen.jpg"
+            "$value": "sponsors/secondgen.jpg"
           }
         }
       ]
@@ -316,8 +316,18 @@
             "$type": "image",
             "$value": "sponsors/onoffmix.png"
           }
+        },
+        {
+          "link": {
+            "$type": "link",
+            "$value": "http://www.venturesquare.net"
+          },
+          "image": {
+            "$type": "image",
+            "$value": "sponsors/venture_square.png"
+          }
         }
-        ]
+      ]
     },
     "bronze": {
       "$type": "array_cols",
