@@ -306,7 +306,18 @@
     },
     "silver": {
       "$type": "array_cols",
-      "$value": []
+      "$value": [
+        {
+          "link": {
+            "$type": "link",
+            "$value": "http://onoffmix.com"
+          },
+          "image": {
+            "$type": "image",
+            "$value": "sponsors/onoffmix.png"
+          }
+        }
+        ]
     },
     "bronze": {
       "$type": "array_cols",
